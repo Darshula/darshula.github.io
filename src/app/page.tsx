@@ -14,8 +14,8 @@ function Home() {
 }
 
 function Header() {
-    var strings = ["Software Developer", "Full-Stack Developer", "Machine Learning Engineer", "Data Scientist"]
-    var style: CSSProperties = {
+    const strings = ["Software Developer", "Full-Stack Developer", "Machine Learning Engineer", "Data Scientist"]
+    const style: CSSProperties = {
         fontSize: "var(--text-4xl)", lineHeight: "var(--tw-leading, var(--text-4xl--line-height)", letterSpacing: "var(--tracking-tight)"
     }
     return (
@@ -53,15 +53,15 @@ function Content() {
         <main id="content" className="pt-24 lg:w-[52%] lg:py-24">
             <section id="about" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
                 <div>
-                    <p className="mb-4">Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin. The first two words themselves are a truncation of dolorem ipsum ("pain itself").</p>
-                    <p className="mb-4">Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin. The first two words themselves are a truncation of dolorem ipsum ("pain itself").</p>
-                    <p className="mb-4">Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin. The first two words themselves are a truncation of dolorem ipsum ("pain itself").</p>
+                    <p className="mb-4">Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin. The first two words themselves are a truncation of dolorem ipsum (&quot;pain itself&quot;).</p>
+                    <p className="mb-4">Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin. The first two words themselves are a truncation of dolorem ipsum (&quot;pain itself&quot;).</p>
+                    <p className="mb-4">Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin. The first two words themselves are a truncation of dolorem ipsum (&quot;pain itself&quot;).</p>
                 </div>
             </section>
             <section >
-                <p className="mb-4">Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin. The first two words themselves are a truncation of dolorem ipsum ("pain itself").</p>
-                <p className="mb-4">Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin. The first two words themselves are a truncation of dolorem ipsum ("pain itself").</p>
-                <p className="mb-4">Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin. The first two words themselves are a truncation of dolorem ipsum ("pain itself").</p>
+                <p className="mb-4">Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin. The first two words themselves are a truncation of dolorem ipsum (&quot;pain itself&quot;).</p>
+                <p className="mb-4">Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin. The first two words themselves are a truncation of dolorem ipsum (&quot;pain itself&quot;).</p>
+                <p className="mb-4">Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin. The first two words themselves are a truncation of dolorem ipsum (&quot;pain itself&quot;).</p>
                 <p className="mb-4">This is the right side.</p>
             </section>
             <a href="https://brittanychiang.com/" id="projects">https://brittanychiang.com/</a>
