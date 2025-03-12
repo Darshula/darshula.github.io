@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+h1, h2 {
+    color: var(--color-slate-200);
+}
+
+p {
+    color: var(--color-slate-400);
+}
+
+a {
+    color: var(--color-slate-200);
+}
+
+a:hover {
+    color: var(--color-indigo-300);
+}
+
+nav ul li {
+    text-transform: uppercase;
+}
