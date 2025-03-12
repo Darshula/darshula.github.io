@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+* {
+    color: var(--color-slate-200);
+    
+}
+
 h1, h2 {
     color: var(--color-slate-200);
 }
