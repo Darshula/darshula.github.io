@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 type CaretWriterProps = {
     strings: string[], delay: number, style?: CSSProperties
-}
+};
 
 function CaretWriter({ strings, delay, style}: CaretWriterProps) {
     const sequence: Array<string | number> = [];

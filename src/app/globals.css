@@ -2,7 +2,7 @@
 
 * {
     color: var(--color-slate-200);
-    
+
 }
 
 h1, h2 {
@@ -18,9 +18,11 @@ a {
 }
 
 a:hover {
-    color: var(--color-indigo-300);
+    color: var(--color-indigo-200);
 }
 
-nav ul li {
+nav ul li a {
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
 }

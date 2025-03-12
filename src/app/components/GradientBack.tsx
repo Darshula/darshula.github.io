@@ -21,11 +21,11 @@ const GradientPosition = () => {
 };
 
 
-interface GradientdivProps {
+interface GradientBackProps {
     children: ReactNode
     className: string
 }
-const Gradientdiv: React.FC<GradientdivProps> = ({ children, className }) => {
+const GradientBack: React.FC<GradientBackProps> = ({ children, className }) => {
     return (
         <div
             style={{
@@ -37,4 +37,4 @@ const Gradientdiv: React.FC<GradientdivProps> = ({ children, className }) => {
     )
 }
 
-export default Gradientdiv
+export default GradientBack
