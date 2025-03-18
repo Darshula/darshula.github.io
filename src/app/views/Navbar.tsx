@@ -1,7 +1,7 @@
 import { CSSProperties } from "react";
 import CaretWriter from "../components/CaretWriter";
 
-export function Navbar() {
+export default function Navbar() {
     const strings = ["Software Developer", "Full-Stack Developer", "Machine Learning Engineer", "Data Scientist"]
     const style: CSSProperties = {
         fontSize: "var(--text-4xl)", lineHeight: "var(--tw-leading, var(--text-4xl--line-height)", letterSpacing: "var(--tracking-tight)"

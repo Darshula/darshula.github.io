@@ -1,40 +1,35 @@
-'use client'
+"use client"
 
-import React, { ReactNode } from "react";
+import React from "react";
 
-
-const GradientPosition = () => {
-
+function GradientPosition() {
     const [mousePosition, setMousePosition] = React.useState({ x: 0, y: 0 });
-
     React.useEffect(() => {
         const updateMousePosition = (ev: { clientX: number; clientY: number; }) => {
             setMousePosition({ x: ev.clientX, y: ev.clientY });
         };
-        window.addEventListener('mousemove', updateMousePosition);
+        window.addEventListener("mousemove", updateMousePosition);
         return () => {
-            window.removeEventListener('mousemove', updateMousePosition);
+            window.removeEventListener("mousemove", updateMousePosition);
         };
     }, []);
-
-    return (mousePosition)
+    return (mousePosition);
 };
 
 
-interface GradientBackProps {
-    children: ReactNode
+type GradientBackProps = {
     className: string
-}
-const GradientBack: React.FC<GradientBackProps> = ({ children, className }) => {
+};
+
+function GradientBack({ className }: GradientBackProps) {
     return (
         <div
             style={{
-                backgroundImage: `radial-gradient( circle at ${GradientPosition().x}px ${GradientPosition().y}px, rgba(29, 78, 216, 0.15), transparent 80% )`
+                backgroundImage: `radial-gradient(circle at ${GradientPosition().x}px ${GradientPosition().y}px, rgba(29, 78, 216, 0.15), transparent 80% )`
             }}
-            className={className}>
-            {children}
+            className={"z-0 s-full inset-0 fixed" + " " + className}>
         </div>
-    )
-}
+    );
+};
 
-export default GradientBack
+export default GradientBack;
