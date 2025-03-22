@@ -33,7 +33,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" className="scroll-smooth">
-            <body className={`${interSans.variable} antialiased size-full font-[family-name:var(--font-inter-sans)]`}>
+            <body className={`${interSans.variable} antialiased font-[family-name:var(--font-inter-sans)]`}>
                 {children}
             </body>
         </html>

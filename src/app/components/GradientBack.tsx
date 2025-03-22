@@ -27,7 +27,7 @@ function GradientBack({ className }: GradientBackProps) {
             style={{
                 backgroundImage: `radial-gradient(circle at ${GradientPosition().x}px ${GradientPosition().y}px, rgba(29, 78, 216, 0.15), transparent 80% )`
             }}
-            className={"z-[-1] s-full inset-0 fixed" + " " + className}>
+            className={"z-[-10] s-full inset-0 fixed" + " " + className}>
         </div>
     );
 };
