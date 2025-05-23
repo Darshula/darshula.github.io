@@ -21,7 +21,7 @@ export default async function ProjectCard({ name }: ProjectCardProps) {
     let key = 0;
     return (
         <div className="group relative mb-12 p-4 hover:!opacity-100 group-hover/list:opacity-50 transition-all">
-            <a href={projectData.link}>
+            <a href={projectData.link} target="_blank" rel="noreferrer noopener">
                 <DynamicBackground />
                 <div className="grid grid-cols-8 gap-8 md:gap-4">
                     <div className="col-span-2 relative" style={{ height: 'fit-content' }}>
