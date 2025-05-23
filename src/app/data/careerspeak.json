@@ -1,0 +1,17 @@
+{
+    "name": "CareerSpeak",
+    "description": "CareerSpeak is a cross-platform web application that aims to provide an integrated solution for guidance in job placements. It provides grammar analysis on resumes, mock speech-based interviews, and job recommendations based on the relevant keywords extracted from the resume.",
+    "imageLink": "https://raw.githubusercontent.com/CareerSpeak/CareerSpeak/main/images/devices.png",
+    "link": "https://github.com/CareerSpeak/CareerSpeak",
+    "tags": [
+        "React Native",
+        "Node.JS",
+        "ExpressJS",
+        "Flask",
+        "Python",
+        "Docker",
+        "MySQL",
+        "Microservices",
+        "Machine Learning"
+    ]
+}

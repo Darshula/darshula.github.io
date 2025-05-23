@@ -1,0 +1,18 @@
+{
+    "name": "FusionSage",
+    "description": "",
+    "imageLink": "https://raw.githubusercontent.com/Darshula/FusionSage/main/images/page.jpeg",
+    "link": "https://github.com/Darshula/FusionSage",
+    "tags": [
+        "Retrieval Augmented Generation",
+        "Text to SQL",
+        "Langchain",
+        "Large Language Model",
+        "GPT 3.5 turbo",
+        "Pinecone",
+        "CassandraDB",
+        "Python",
+        "Beautifulsoup4",
+        "Streamlit"
+    ]
+}

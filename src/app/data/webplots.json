@@ -1,0 +1,15 @@
+{
+    "name": "WebPlots",
+    "description": "A web app to plot 2D and 3D graphs from Python and R scripts.",
+    "imageLink": "https://raw.githubusercontent.com/Darshula/WebPlots/main/assets/screenshot.png",
+    "link": "https://github.com/Darshula/WebPlots",
+    "tags": [
+        "Angular",
+        "Python",
+        "Flask",
+        "Plotly.js",
+        "R",
+        "Matplotlib",
+        "Ggplot"
+    ]
+}

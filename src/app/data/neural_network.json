@@ -1,0 +1,10 @@
+{
+    "name": "Neural Network from Scratch",
+    "description": "Backpropagation neural network library written in pure Python without any external libraries.",
+    "imageLink": "https://raw.githubusercontent.com/Darshula/neural_network/main/images/image.jpeg",
+    "link": "https://github.com/Darshula/neural_network",
+    "tags": [
+        "Python",
+        "Neural Networks"
+    ]
+}
