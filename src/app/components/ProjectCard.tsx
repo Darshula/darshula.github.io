@@ -20,8 +20,8 @@ export default async function ProjectCard({ name }: ProjectCardProps) {
     const projectData: ProjectDataModel = JSON.parse(await fs.readFile(process.cwd() + `/src/app/data/${name}.json`, "utf8"));
     let key = 0;
     return (
-        <div className="relative mb-12 p-4 hover:!opacity-100 group-hover/list:opacity-50 transition-all">
-            <a className="group" href={projectData.link}>
+        <div className="group relative mb-12 p-4 hover:!opacity-100 group-hover/list:opacity-50 transition-all">
+            <a href={projectData.link}>
                 <DynamicBackground />
                 <div className="grid grid-cols-8 gap-8 md:gap-4">
                     <div className="col-span-2 relative" style={{ height: 'fit-content' }}>
