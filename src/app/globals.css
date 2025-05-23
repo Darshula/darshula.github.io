@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-    color: var(--color-indigo-200);
+    color: var(--color-teal-300);
 }
 
 nav ul li a {
