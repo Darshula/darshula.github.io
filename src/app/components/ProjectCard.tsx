@@ -29,7 +29,7 @@ export default async function ProjectCard({ name }: ProjectCardProps) {
                         <Image
                             className="p-2"
                             src={projectData.imageLink}
-                            alt=""
+                            alt={projectData.name}
                             width={1280}
                             height={1280}
                         />
