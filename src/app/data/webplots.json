@@ -10,6 +10,6 @@
         "Plotly.js",
         "R",
         "Matplotlib",
-        "Ggplot"
+        "Ggplot2"
     ]
 }

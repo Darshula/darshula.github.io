@@ -1,6 +1,6 @@
 {
     "name": "FusionSage",
-    "description": "",
+    "description": "Retrieval-Augmented Generation system using website, PDF, and database sources.",
     "imageLink": "https://raw.githubusercontent.com/Darshula/FusionSage/main/images/page.jpeg",
     "link": "https://github.com/Darshula/FusionSage",
     "tags": [
