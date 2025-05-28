@@ -49,14 +49,14 @@ export default function Navbar() {
                     <ul className="mt-24 w-max">
                         <li>
                             <a className="group group/active py-3" href="#about">
-                                <span className={"mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 " + (currentSection === "about" ? nav_divider_active : "")}></span>
-                                <span className={"text-xs font-bold tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200 " + (currentSection === "about" ? nav_text_active : "")}>About</span>
+                                <span className={`mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 ${currentSection === "about" ? nav_divider_active : ""}`}></span>
+                                <span className={`text-xs font-bold tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200 ${currentSection === "about" ? nav_text_active : ""}`}>About</span>
                             </a>
                         </li>
                         <li>
                             <a className="group py-3" href="#projects">
-                                <span className={"mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 " + (currentSection === "projects" ? nav_divider_active : "")}></span>
-                                <span className={"text-xs font-bold tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200 " + (currentSection === "projects" ? nav_text_active : "")}>Projects</span>
+                                <span className={`mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 ${currentSection === "projects" ? nav_divider_active : ""}`}></span>
+                                <span className={`text-xs font-bold tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200 ${currentSection === "projects" ? nav_text_active : ""}`}>Projects</span>
                             </a>
                         </li>
                     </ul>
