@@ -1,29 +1,60 @@
-import { CSSProperties } from "react";
+"use client"
+
+import React, { useEffect, useState, CSSProperties } from "react";
 import CaretWriter from "../components/CaretWriter";
 
 export default function Navbar() {
-    const strings = ["Software Developer", "Full-Stack Developer", "Machine Learning Engineer", "Data Scientist"]
+    const strings = ["Software Developer", "Full-Stack Developer", "Machine Learning Engineer", "Data Scientist"];
     const style: CSSProperties = {
         fontSize: "var(--text-4xl)", lineHeight: "var(--tw-leading, var(--text-4xl--line-height)", letterSpacing: "var(--tracking-tight)"
-    }
+    };
+
+    const [currentSection, setCurrentSection] = useState("about");
+    const nav_divider_active: string = "w-16 !bg-slate-200";
+    const nav_text_active: string = "!text-slate-200";
+
+    useEffect(() => {
+        const sections = document.querySelectorAll("section");
+        const options = {
+            root: null,
+            rootMargin: "0px",
+            threshold: 0.5
+        };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    setCurrentSection(entry.target.id);
+                }
+            });
+        }, options);
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+        return () => {
+            sections.forEach(section => {
+                observer.unobserve(section);
+            });
+        };
+    }, []);
+
     return (
         <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
-            <div className="w-[75%]">
+            <div>
                 <h1 className="text-5xl font-bold tracking-tight">Tanmay Kulkarni</h1>
                 <CaretWriter strings={strings} delay={1000} style={style} />
 
                 <nav className="nav hidden lg:block">
                     <ul className="mt-24 w-max">
                         <li>
-                            <a className="group py-3" href="#about">
-                                <span className="mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200"></span>
-                                <span className="text-xs font-bold tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">About</span>
+                            <a className="group group/active py-3" href="#about">
+                                <span className={"mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 " + (currentSection === "about" ? nav_divider_active : "")}></span>
+                                <span className={"text-xs font-bold tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200 " + (currentSection === "about" ? nav_text_active : "")}>About</span>
                             </a>
                         </li>
                         <li>
                             <a className="group py-3" href="#projects">
-                                <span className="mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200"></span>
-                                <span className="text-xs font-bold tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Projects</span>
+                                <span className={"mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 " + (currentSection === "projects" ? nav_divider_active : "")}></span>
+                                <span className={"text-xs font-bold tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200 " + (currentSection === "projects" ? nav_text_active : "")}>Projects</span>
                             </a>
                         </li>
                     </ul>
