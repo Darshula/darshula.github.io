@@ -40,8 +40,10 @@ export default function Navbar() {
     return (
         <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
             <div>
-                <h1 className="text-5xl font-bold tracking-tight">Tanmay Kulkarni</h1>
+                <h1 className="text-5xl font-bold tracking-tight mb-4">Tanmay Kulkarni</h1>
                 <CaretWriter strings={strings} delay={1000} style={style} />
+
+                <p className="tracking-tight mt-6 mr-24">Passionate about building polished, thoughtful, and intuitive software that leaves a mark.</p>
 
                 <nav className="nav hidden lg:block">
                     <ul className="mt-24 w-max">
