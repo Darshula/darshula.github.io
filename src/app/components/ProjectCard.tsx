@@ -25,7 +25,7 @@ export default async function ProjectCard({ name }: ProjectCardProps) {
                 <div className="p-4">
                     <DynamicBackground />
                     <div className="grid grid-cols-8 gap-8 md:gap-4">
-                        <div className="col-span-2 relative" style={{ height: 'fit-content' }}>
+                        <div className="col-span-2 relative mt-1" style={{ height: 'fit-content' }}>
                             <DynamicBackground />
                             <Image
                                 className="group group-hover:border-slate-600 border-2 border-solid border-slate-900 rounded-sm"
