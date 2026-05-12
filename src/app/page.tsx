@@ -3,6 +3,7 @@ import Navbar from "./views/Navbar";
 import About from "./views/About";
 import Projects from "./views/Projects";
 import Attribution from "./views/Attribution";
+import Experience from "./views/Experience";
 
 export default function Home() {
     return (
@@ -22,6 +23,7 @@ function Content() {
         <main id="content" className="pt-24 lg:w-[52%] lg:py-24">
             <About />
             <Projects />
+            <Experience />
             <Attribution />
         </main>
     );

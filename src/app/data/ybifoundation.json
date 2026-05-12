@@ -1,0 +1,14 @@
+{
+    "name": "Machine Learning Intern · YBI Foundation",
+    "description": "Developed and optimized Scikit-Learn regression and decision-tree models on an internal dataset of 10,000+ entries, reducing prediction error by 15% and improving model accuracy from 64% to 95% through feature engineering and hyperparameter tuning. Created 10+ interactive dashboards to visualize model performance, identify key feature correlations, and communicate areas for improvement.",
+    "duration": "Feb — May 2023",
+    "tags": [
+        "Python",
+        "Matplotlib",
+        "Jupyter",
+        "Scikit-Learn",
+        "Regression Models",
+        "Random Forest",
+        "Decision Trees"
+    ]
+}

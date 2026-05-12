@@ -1,0 +1,17 @@
+{
+    "name": "AI-ML Intern · All India Council for Technical Education",
+    "description": "Deployed and maintained production-grade machine learning infrastructure on AWS, including three SageMaker endpoints with over 99% uptime and sub-200ms average response times. Built scalable AWS Glue ETL jobs and optimized S3 partitioning to reduce data preprocessing time by over 30%, while lowering ML training costs by more than 20% through spot instances and optimized instance selection. Automated a SageMaker Ground Truth labeling pipeline that processed 20,000 items in two weeks with 92% label quality.",
+    "duration": "May — Jul 2023",
+    "tags": [
+        "Python",
+        "AWS Glue",
+        "Amazon SageMaker",
+        "Amazon S3",
+        "ETL Pipelines",
+        "Cloud Infrastructure",
+        "Data Preprocessing",
+        "Performance Optimization",
+        "Machine Learning",
+        "MLOps"
+    ]
+}

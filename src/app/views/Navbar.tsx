@@ -59,6 +59,12 @@ export default function Navbar() {
                                 <span className={`text-xs font-bold tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200 ${currentSection === "projects" ? nav_text_active : ""}`}>Projects</span>
                             </a>
                         </li>
+                        <li>
+                            <a className="group group/active py-3" href="#experience">
+                                <span className={`mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16 group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 ${currentSection === "experience" ? nav_divider_active : ""}`}></span>
+                                <span className={`text-xs font-bold tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200 ${currentSection === "experience" ? nav_text_active : ""}`}>Experience</span>
+                            </a>
+                        </li>
                     </ul>
                 </nav>
 
