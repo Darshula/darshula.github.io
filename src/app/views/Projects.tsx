@@ -8,6 +8,7 @@ export default function Projects() {
             <StickySectionIdentifier sectionName="Projects" />
             <ul className="group/list">
                 <li className="mb-12"><ProjectCard name="careerspeak" /></li>
+                <li className="mb-12"><ProjectCard name="librarysystem" /></li>
                 <li className="mb-12"><ProjectCard name="fusionsage" /></li>
                 <li className="mb-12"><ProjectCard name="webplots" /></li>
                 <li className="mb-12"><ProjectCard name="neural_network" /></li>

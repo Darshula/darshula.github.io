@@ -1,0 +1,18 @@
+{
+    "name": "LibrarySystem",
+    "description": "Library management in Spring using Thymeleaf and SQLite. Containerized and deployed on Render.com.",
+    "imageLink": "https://raw.githubusercontent.com/Darshula/LibrarySystem/main/images/page.png",
+    "link": "https://github.com/Darshula/LibrarySystem",
+    "tags": [
+        "Java",
+        "SpringBoot",
+        "ThymeLeaf",
+        "Docker",
+        "SQLite",
+        "Java Persistence API",
+        "Bootstrap CSS",
+        "HTML/CSS",
+        "Jira",
+        "Agile Methodology"
+    ]
+}
