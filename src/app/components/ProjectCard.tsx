@@ -28,7 +28,7 @@ export default async function ProjectCard({ name }: ProjectCardProps) {
                         <div className="col-span-2 relative" style={{ height: 'fit-content' }}>
                             <DynamicBackground />
                             <Image
-                                className="p-2"
+                                className="group group-hover:border-slate-600 border-2 border-solid border-slate-900 rounded-sm"
                                 src={projectData.imageLink}
                                 alt={projectData.name}
                                 width={1280}
